@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    
+}
+.back {
+    background-color:rgb(44, 51, 59);
+    padding: 300px;
+    
+}
+.details {
+    color: white;
+}
+.name {
+    background-color: white;
+    border: solid  30px;
+    border-color: rgb(187, 101, 140);
+    padding: 20px;
+    margin-top: 40px;
+    width: 400px;
+    }
+      
+
+     .name h1 {
+         background-color: white;
+         font-family: 'Courier New', Courier, monospace;
+         padding: 15px;
+         width: 300px;
+         margin-right: 50px;
+         box-shadow: 0 8px 6px -6px black;
+         text-align: center;
+         font-weight: bold;
+         
+     }
+    .amount{
+        color: rgb(7, 93, 85);
+        background-color:rgb(237, 239, 234);
+        width: 150px;
+        margin-left: 20px;
+        margin-top: 40px;
+        padding: none;
+        text-align: center;
+        font-size: 2em;
+    }
+       
+    
+    button {
+        color: white;
+        background-color:rgb(0, 130, 143);
+        padding: 10px;
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 3px;
+        border: none;
+    }
+    .container {
+        display: flex;
+        
+    }
+    .under {
+        color: white;
+        margin-top: 150px;
+        text-align: center;
+    }
+    input {
+        background-color: transparent;
+        color: white;
+    }
+
+    .circle {  background-color:rgb(121, 63, 93);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: solid 5px rgb(187, 101, 140);
+        margin-left: 50px;
+        margin-top: 1px;
+      
+    }
+
+    
+    .shape {background-color:rgb(121, 63, 93);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: solid 5px rgb(187, 101, 140);
+        margin-left: 200px;
+        margin-top: 2px;
+
+    }
+    .shapey {background-color:rgb(121, 63, 93);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: solid 5px rgb(187, 101, 140);
+        margin-left: 200px;
+        margin-top: 2px;}
