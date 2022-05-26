@@ -9,13 +9,17 @@
 </head>
 <body>
     <div class="back">
-
+     
+        <form action="#" id="fm" onsubmit=" checkblank(), fault (), unique() " onreset="resett()">
       <div class="details">
             <h1>Name Plaque Application</h1>
             <p>Add any name of your choice and we will show you how much it will cost. (Each letter is $5)
 
             </p>
-           <input type="text" placeholder="Enter a guess">
+          
+           <input id="enter" type="text" placeholder="Enter a guess">  <span><p id="error"></p></span>
+         
+          
       </div>
         
     <div class="container">
@@ -23,39 +27,46 @@
 
      <section class="cont">
             
-         <div class="name">
+       <div class="name">
 
-            <div class="circle">
-                
-                
-         <section class="shape">
+            <div class="circle"> <div>
+                        
+                        <div class="innercircle"> </div>
+              
+                   
 
-         </section>
-         
-         
-         </div>
-         <div>
-           <h1>NOAH OLATOYE</h1>
            
-         </div>
-     </section>
+
+              <h1 id="plaque">YOUR NAME</h1>
+           
+       </div>
+     
+     
+     
+      </section>
         
 
          <section class="cont">
 
-              <div class="amount">
-            <p>Total:$50</p>
+              <div  class="amount">
+            <p id="price">Total:$50</p>
             </div>
 
             <div class="purchase">
-            <button>Buy Now</button>
+            <button id="purchase" type="submit" value="submit" >Buy Now</button>
+            <button id="rest" type="reset" value="reset" >Reset Plaque</button>
             </div>
+            
             
         </section>
 
          
-
+       </form>
      </div>
+
+        <script src="script.js"></script>
+        <script src="buy_now.js"></script>
+       
 </body>
 
 <footer class="under">
